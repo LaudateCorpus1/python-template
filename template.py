@@ -3,7 +3,6 @@
 import os
 import sys
 
-
 class SomeClass:
     def __init__(self, some_var=None):
         """
@@ -46,7 +45,7 @@ class SomeClass:
         :return: string
         :rtype: string
         """
-        
+        self._internal_function()        
         return self.some_var.upper()
 
 
